@@ -1,10 +1,15 @@
 import React from "react";
+import Particle from "./Particle";
+import { Container, Row, Col } from "react-bootstrap";
+
 
 const Home =() => {
     return(
-        <div>
-            Home sayfa
-        </div>
+        <section>
+            <Container fluid className="home-section" id="home">
+            </Container>
+        </section>
+
     );
 }
 

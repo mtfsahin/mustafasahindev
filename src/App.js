@@ -7,7 +7,6 @@ function App() {
     <div className="App">
 
         <div> 
-          {a.toUpperCase()}
           Routerlar buraya render olacak
           <Outlet />
         </div>

@@ -6,8 +6,7 @@ import Home from './Home';
 const router=createBrowserRouter([
     {
         path:'/',
-        element:<App />,
-        errorElement: <div>Hatasayfası </div>,
+        element:<App />
     },
     {
         path:'/home',
