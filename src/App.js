@@ -5,6 +5,7 @@ import React, { useState, useEffect } from "react";
 import { Outlet } from 'react-router';
 import "./style.css";
 import "./App.css";
+import About from './About';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from './Header';
 import Footer from './Footer';
@@ -33,6 +34,7 @@ function App() {
   
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
 
       </Routes>
      <Footer />
