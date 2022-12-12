@@ -7,6 +7,7 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from './Header';
+import Footer from './Footer';
 import {
   BrowserRouter as Router,
   Route,
@@ -34,7 +35,7 @@ function App() {
         <Route path="/" element={<Home />} />
 
       </Routes>
-     
+     <Footer />
     </div>
   </Router>
   );
